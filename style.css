@@ -52,7 +52,8 @@ main{
 
 .botones{
     display: flex;
-    margin-top: 18px;
+    margin-top: 25px;
+    padding-bottom: 80px;
 }
 
 .btnSuma {
@@ -113,18 +114,6 @@ main{
     background: none;
 }.resultado:focus{
     outline: none;
-}
-
-.btnCopiar {
-    border: 1px solid #0A3871;
-    border-radius: 24px;
-    color: #0A3871;
-    cursor: pointer;
-    height: 67px;
-    margin-left: 120px;
-    margin-top: 10px;
-    position: flex;
-    width: 150px;
 }
 
 footer{
