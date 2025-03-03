@@ -15,14 +15,29 @@
         <header>
           <div class="logo">
             <h1><img src="Resources/tedssLogo.png" alt="Logo Tedss"></h1>
-        </div>
+            <span id="titulo">Calculadora</span>
+          </div>
         </header>
         <main>
           <section>
-            <input type="text "class="texto" cols="30" rows="10" placeholder="Ingrese el texto aquí"></input>
+            <input type="text" class="numero" placeholder="Ingresa un número aquí"></input>
+            <input type="text" class="numero" placeholder="Ingrese un número aquí"></input>
+            <div>
+              <h6 class="info"> <img src="Resources/Vector.png" alt=""> Solo números </h6>
+            </div>
             <div class="botones">
+              <button class="btnSuma" onclick="btnSuma()">+</button>
+              <button class="btnResta" onclick="btnResta()">-</button>
+              <button class="btnMultiplicacion" onclick="btnMultiplicacion()">*</button>
+              <button class="btnDivision" onclick="btnDivision()">÷</button>
             </div>
         </section>
+        <section>
+          <textarea class="resultado" placeholder="Resultado"></textarea>
+          <div>
+            <button class="btnCopiar" onclick="copiar()">Copiar</button>
+        </div>
+      </section>
         </main>
         <script src="script.js"></script>
         <footer>

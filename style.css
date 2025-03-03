@@ -2,10 +2,11 @@
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 30px;
-}   
+}
+
 
 body{
-    
+     background:#F3F5FC;   
 }
 
 .logo{
@@ -16,26 +17,36 @@ body{
 
 .logo img{
     width: 10%;
+    float: left;
+}
+    
+
+#titulo{
+    display: inline-block;
+    color: #0A3871;
+    padding: 2px;
+    margin-left: 30px;
+    margin-top: 50px;
 }
 
 main{
     display: flex;
     margin-bottom: 10px;
     margin-left: 180px;
+    margin-top: 50px;
 }
 
-.texto{
+.numero{
     height: 50px;
     border: none;
     color: #0A3871;
     margin-top: 10px;
     padding: 2px;
-    text-transform: lowercase;
     resize: none;
     background: none;
-}texto::placeholder { color: #0A3871; }
+}numero::placeholder { color: #0A3871; }
 
-.texto:focus{
+.numero:focus{
     outline: none;
 }
 
@@ -44,25 +55,64 @@ main{
     margin-top: 18px;
 }
 
-.btnDesencriptar {
-    background: #D8DFE8;
-    border: 1px solid #0A3871;
-    border-radius: 24px;
-    color: #0A3871;
-    cursor: pointer;
-    height: 67px;
-    margin-left: 30px;
-    width: 328px;
-}
-
-.btnEncriptar {
+.btnSuma {
     background-color: #0A3871;
     border: 1px solid #0A3871;
     border-radius: 24px;
     color: white;
     cursor: pointer;
-    height: 67px;
-    width: 328px;
+    height: 60px;
+    width: 100px;
+}
+
+.btnResta {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 60px;
+    width: 100px;
+    margin-left: 30px;
+}
+
+.btnMultiplicacion {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 60px;
+    width: 100px;
+    margin-left: 30px;
+}
+
+.btnDivision {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 60px;
+    width: 100px;
+    margin-left: 30px;
+}
+
+.info {
+    color: #495057;
+    font-size:17px;
+}
+
+.resultado{
+    height: 50px;
+    border: none;
+    color: #0A3871;
+    margin-top: 10px;
+    padding: 2px;
+    resize: none;
+    background: none;
+}.resultado:focus{
+    outline: none;
 }
 
 .btnCopiar {
@@ -74,18 +124,13 @@ main{
     margin-left: 120px;
     margin-top: 10px;
     position: flex;
-    width: 336px;
-}
-
-.info {
-    color: #495057;
-    font-size:17px;
+    width: 150px;
 }
 
 footer{
     text-align: center;
     background: url(Resources/bg.jpg);
-    padding: 40px;
+    padding: 20px;
 }
 
 footer img{
@@ -94,5 +139,6 @@ footer img{
 }
 
 #Copyright{
-    color:#ffffff;
+    color:#F3F5FC;
+    font-size: 25px;
 }
