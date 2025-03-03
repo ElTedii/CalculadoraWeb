@@ -2,7 +2,7 @@
 # Calculadora
 Este proyecto se trata de una aplicación que realiza cálculos básicos.
 
-# Operac|iones
+# Operaciones
 Las operaciones que realizará son las siguientes:
 
 ```
@@ -19,9 +19,6 @@ División
 ```
 
 # Caracteristicas
-
-- Funciona solo con letras números enteros
-- No deben de ser utilizadas las letras
 - Calcula operaciones básicas, por ejemplo:
 ```
 4 * 5 = 20
